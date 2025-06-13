@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CAFE CACAO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>CAFE CACAO</h1>
+  </header>
+
+  <!-- Texto de instrucciones -->
+  <section class="instrucciones">
+    <p>☕ Bienvenido a CAFE CACAO. Selecciona el tipo de café que deseas pedir:</p>
+  </section>
+
+  <!-- Botones de tipo de café -->
+  <section class="cafes">
+    <button onclick="agregarPedido('Espresso')">Espresso</button>
+    <button onclick="agregarPedido('Latte')">Latte</button>
+    <button onclick="agregarPedido('Capuccino')">Capuccino</button>
+    <button onclick="agregarPedido('Americano')">Americano</button>
+  </section>
+
+  <!-- Tablero tipo Trello -->
+  <main class="tablero">
+    <div class="columna" id="pendientes">
+      <h2>En Espera</h2>
+    </div>
+    <div class="columna" id="progreso">
+      <h2>En Progreso</h2>
+    </div>
+    <div class="columna" id="finalizados">
+      <h2>Finalizado</h2>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
