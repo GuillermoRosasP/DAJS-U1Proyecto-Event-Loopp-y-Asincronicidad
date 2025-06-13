@@ -65,6 +65,7 @@ Desarrollado como una simulación educativa del manejo de asincronía en JavaScr
 
 ---
 
+![Vista previa de la cafetería](https://i.postimg.cc/MKwmqKY7/Cafeteria.png)
 
 
 
